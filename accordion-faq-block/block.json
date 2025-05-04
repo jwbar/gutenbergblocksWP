@@ -1,0 +1,15 @@
+{
+    "apiVersion": 2,
+    "name": "custom/accordion-faq",
+    "title": "Accordion FAQ",
+    "icon": "list-view",
+    "category": "widgets",
+    "editorScript": "file:./build/index.js",
+    "editorStyle": "file:./editor.css",
+    "style": "file:./style.css",
+    "attributes": {
+      "title": { "type": "string", "default": "Question" },
+      "isOpen": { "type": "boolean", "default": false }
+    }
+  }
+  
