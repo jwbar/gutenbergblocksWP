@@ -1,0 +1,22 @@
+{
+    "apiVersion": 2,
+    "name": "custom/cta-block",
+    "title": "Call to Action",
+    "icon": "megaphone",
+    "category": "widgets",
+    "editorScript": "file:./build/index.js",
+    "editorStyle": "file:./editor.css",
+    "style": "file:./style.css",
+    "attributes": {
+      "headline": { "type": "string", "default": "" },
+      "subheadline": { "type": "string", "default": "" },
+      "buttonText": { "type": "string", "default": "Click Here" },
+      "buttonUrl": { "type": "string", "default": "" },
+      "bgColor": { "type": "string", "default": "#f0f0f0" },
+      "textColor": { "type": "string", "default": "#000000" }
+    },
+    "supports": {
+      "align": ["wide", "full"]
+    }
+  }
+  

@@ -1,0 +1,7 @@
+.wp-block-custom-cta-block .cta-button {
+    cursor: pointer;
+    background: #007cba;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color: white;
+}

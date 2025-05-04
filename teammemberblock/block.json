@@ -1,0 +1,20 @@
+{
+    "apiVersion": 2,
+    "name": "custom/team-members",
+    "title": "Team Members",
+    "icon": "groups",
+    "category": "widgets",
+    "editorScript": "file:./build/index.js",
+    "editorStyle": "file:./editor.css",
+    "style": "file:./style.css",
+    "attributes": {
+      "members": {
+        "type": "array",
+        "default": []
+      }
+    },
+    "supports": {
+      "html": false
+    }
+  }
+  

@@ -1,0 +1,15 @@
+.wp-block-custom-cta-block {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.wp-block-custom-cta-block .cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #007cba;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}

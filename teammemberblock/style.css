@@ -1,0 +1,12 @@
+.wp-block-custom-team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.wp-block-custom-team-members .team-member {
+    flex: 1 1 250px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 10px;
+}
