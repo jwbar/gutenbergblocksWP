@@ -1,0 +1,10 @@
+// blocks/recent-posts/block.json 
+{  
+  "apiVersion": 3,  
+  "name": "custom/recent-posts",  
+  "title": "Recent Posts",  
+  "render": "file:./render.php",  
+  "attributes": {  
+    "postsToShow": { "type": "number", "default": 3 }  
+  }  
+}  

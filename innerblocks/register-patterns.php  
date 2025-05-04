@@ -1,0 +1,5 @@
+// register-patterns.php  
+register_block_pattern('custom/hero-section', [  
+  'title'   => 'Hero Section',  
+  'content' => '<!-- wp:group --><div class="wp-block-group"><!-- wp:heading --><h2>Welcome</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Lorem ipsum...</p><!-- /wp:paragraph --></div><!-- /wp:group -->',  
+]);  

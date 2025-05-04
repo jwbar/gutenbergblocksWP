@@ -1,0 +1,14 @@
+// block.json  
+"transforms": {  
+    "from": [  
+      {  
+        "type": "block",  
+        "blocks": ["core/paragraph"],  
+        "transform": (attributes) => {  
+          return createBlock("custom/highlight", {  
+            content: attributes.content  
+          });  
+        }  
+      }  
+    ]  
+  }  
